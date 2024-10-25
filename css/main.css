@@ -529,10 +529,6 @@
   color: var(--accent-color);
 }
 
-.none {
-  display: none;
-}
-
 .footer__content {
   display: flex;
   justify-content: space-between;
