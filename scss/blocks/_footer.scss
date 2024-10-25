@@ -1,0 +1,40 @@
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    max-width: 100%;
+    min-height: 58px;
+    border-top: 1px solid var(--color-border);
+}
+.footer__copywriting{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 173%;
+    letter-spacing: -0.01em;
+    &::after{
+        content: "";
+        display: flex;
+        flex-shrink: 0;
+        width: 14px;
+        height: 13px;
+        background: url("../icons/icon-heart.svg") no-repeat;
+    }
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.social__icon{
+    fill: var(--main-color);
+    opacity: 0.402367;
+}
+.social__link:hover .social__icon{
+    fill: var(--accent-color);
+    opacity: 1;
+}

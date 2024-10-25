@@ -1,0 +1,108 @@
+@media(max-width: 1169px){
+    /* *section reviews */
+    .reviews__container{
+        padding: 140px 0 50px;
+    }
+    .reviews__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+        text-align: center;
+    }
+    .reviews__icon{
+        margin-bottom: 0;
+    }
+    .forma__container--left{
+        margin-bottom: 0;
+    }
+}
+@media(max-width: 1062px){
+    /* *section shopping */
+    .shopping__container{
+        justify-content: center;
+    }
+    .shopping__text{
+        order: -1;
+    }
+    .shopping__chair{
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    /* *header */
+    .header {
+        padding: 24px 0;
+    }
+    .navbar__menu-list{
+        column-gap: 25px
+    }
+
+    /* *section first screen */
+    .first-screen__bg{
+        min-height: 518px;
+        margin-bottom: 17px;
+    }
+    .first-screen__text{
+        padding-top: 150px;
+    }
+
+    /* *section furniture*/
+    .furniture{
+        padding-bottom: 77px;
+    }
+    
+    .cards,.card:nth-child(5){
+        margin-top: 0;
+    }
+
+    /* *section products */
+    .products{
+        padding-bottom: 77px;
+    }
+    .products__title{
+        margin-bottom: 25px;
+    }
+    .products-content{
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    /* *section contact info*/
+    .contacts{
+        column-gap: 35px;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    /* *footer */
+    .footer__content{
+        flex-direction: column;
+    }
+}
+@media(max-width: 510px){
+    /* *header */
+    .navbar__menu-list{
+        order: 1;
+    }
+
+    /* *section contact info*/
+    .contacts{
+        flex-direction: column;
+    }
+}
+@media(max-width: 375px){
+    /* *section first screen */
+    .first-screen__bg{
+        min-height: 318px;
+    }
+    .first-screen__text{
+        padding: 100px 15px 0px
+    }
+
+    /* *section start shopping */
+    .start-shopping__bg{
+        min-height: 318px;
+    }
+}

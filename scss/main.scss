@@ -1,0 +1,63 @@
+@import "./blocks/./_header.scss";
+@import "./blocks/./_index.scss";
+@import "./blocks/./_footer.scss";
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+    // *fonts
+    --main-font: "Gilroy", sans-serif;
+    --second-font: "Rubik", sans-serif;
+    
+    // *colors
+	--main-color: #161c2d;
+    --accent-color: #473bf0;
+	--white-color: #ffffff;
+	--red-color: #f74d4d;
+	--green-color: #68d585;
+    --color-cards: #F4F7FA;
+    --color-rating: #d4d4d4;
+    --color-rating-active: #FCAD38;
+    --color-border: #e7e9ed;
+}
+a{
+    color: inherit;
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.large-container{
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
